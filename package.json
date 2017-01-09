@@ -1,19 +1,19 @@
 {
-  "name": "Valentine Filestack Demo",
-  "version": "0.2.5",
+  "name": "valentine-filestack-demo",
+  "version": "0.1",
   "description": "A demo for the Iron Yard",
   "engines": {
-    "node": "5.9.1"
+    "node": "7.2.0"
   },
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "start-dev": "webpack-dev-server --inline --content-base .",
-    "watch-sass": "sass --watch sass/main.sass:styles/main.css",
+    "watch-sass": "sass --watch sass/main.sass:styles/main.css"
   },
   "dependencies": {
-    "ejs": "2.4.1",
-    "express": "4.13.3",
+    "ejs": "2.5.5",
+    "express": "4.14.0",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-router": "^2.0.0"
@@ -26,5 +26,15 @@
     "http-server": "^0.8.5",
     "webpack": "^1.12.13",
     "webpack-dev-server": "^1.14.1"
-  }
+  },
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/cogKnitter/valentineStack"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }

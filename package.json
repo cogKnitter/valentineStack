@@ -4,7 +4,7 @@
   "description": "A demo for the Iron Yard",
   "scripts": {
     "watch-sass": "sass --watch sass/main.sass:styles/main.css",
-    "start": "webpack-dev-server --inline --content-base .",
+    "start": "webpack-dev-server --inline --content-base ."
   },
   "dependencies": {
     "react": "^0.14.7",
@@ -18,14 +18,10 @@
     "babel-preset-react": "^6.5.0",
     "http-server": "^0.8.5",
     "webpack": "^1.12.13",
-    "webpack-dev-server": "^1.14.1",
+    "webpack-dev-server": "^1.14.1"
   },
    "repository": {
     "type": "git",
     "url": "https://github.com/cogKnitter/valentineStack"
-  },
-  "keywords": [
-    "filestack",
-  ],
-  "license": "MIT"
+  }
 }

@@ -1,18 +1,10 @@
-var express = require('express');
-var app = express();
+import React from 'react'
+import { render } from 'react-dom'
+import { Router, Route, browserHistory, IndexRoute } from 'react-router'
+import App from './modules/App'
 
-app.set('port', (process.env.PORT || 5000));
-
-app.use(express.static(__dirname + '/public'));
-
-// views is directory for all template files
-app.set('views', __dirname + '/views');
-app.set('view engine', 'ejs');
-
-app.get('/', function(request, response) {
-  response.render('pages/index');
-});
-
-app.listen(app.get('port'), function() {
-  console.log('Node app is running on port', app.get('port'));
-});
+render((
+  <Router history={browserHistory}>
+    <Route path="/" component={App}/>
+  </Router>
+), document.getElementById('app'))

@@ -9,7 +9,6 @@ import Projects from './modules/Projects'
 render((
   <Router history={browserHistory}>
     <Route path="/" component={App}>
-      <Route path="/projects" component={Projects}/>
     </Route>
   </Router>
 ), document.getElementById('app'))

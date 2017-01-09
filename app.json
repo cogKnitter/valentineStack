@@ -1,0 +1,8 @@
+
+{
+  "name": "Valentine Stack",
+  "description": "A demo of filestack collage builder",
+  "repository": "https://github.com/cogKnitter/valentineStack",
+  "logo": "",
+  "keywords": ["node", "express", "filestack", "react"]
+}
